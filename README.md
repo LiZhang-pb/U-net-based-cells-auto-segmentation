@@ -4,7 +4,7 @@ This segmentation code was used here for Epidermal Cells auto-segmentation from 
 
 Requirements
 --
-Please see the files named _Requirements_ in the repository. It shows the running environments and hardware needed.
+Please see the file named _Requirements_ in the repository. It shows the running environments and hardware needed.
 
 Folders
 --
