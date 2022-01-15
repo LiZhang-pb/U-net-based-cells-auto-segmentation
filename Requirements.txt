@@ -1,0 +1,15 @@
+MINI-conda  ==  4.3.27
+python  ==  3.6.2
+twnsorflow-gpu == 1.5.0
+keras  ==  2.1.6
+numpy  ==  1.19.5
+libtiff  ==  0.4.2
+opencv-python  ==  3.4.5.20
+pandas ==  1.1.2
+h5py  ==  2.10.0
+Pillow  ==  4.2.1
+scipy  ==  1.5.4
+vc  ==  14
+vs2015_runtime  ==  3.10.0.0
+wheel  ==  0.29.0
+zipp  ==  3.5.0
