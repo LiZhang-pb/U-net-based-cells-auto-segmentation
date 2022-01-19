@@ -33,9 +33,9 @@ One epidermal micrograph of 1388x1040 pi, for example, a cuticle graph of _Ginkg
 Note: The images for segmentation should be placed in the _Folder test_.
 ### Run the code
 in this order:
-data.py 
-unet.py
-see.py (in the _Folder code_)
-see.m (in the _Folder results_).
+data.py <br />
+unet.py<br />
+see.py (in the _Folder code_)<br />
+see.m (in the _Folder results_).<br />
 You would see the results of prediction map shown in the _Folder results_.
 
