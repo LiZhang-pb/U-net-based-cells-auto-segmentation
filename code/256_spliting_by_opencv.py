@@ -52,6 +52,6 @@ def crop(img, outdir):
     cv2.imwrite("../corpped_PNG/{}.png".format(i + 44000), cropped)
     cropped = img[768:1024, 1024:1280]
     cv2.imwrite("../corpped_PNG/{}.png".format(i + 45000), cropped)
-for img in glob.glob("../5 Dec Revision/Gathering/YMG-0308-Baiera-Czekanowskia/*.png"):  # 对需要裁剪的图片的文件夹循环读取
-    crop(img, "../5 Dec Revision/Gathering/YMG-0308-Baiera-Czekanowskia/")
+for img in glob.glob("Your Folder address/*.png"):  # 对需要裁剪的图片的文件夹循环读取
+    crop(img, "Your Folder address/")
     i = i + 1
