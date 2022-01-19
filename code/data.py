@@ -9,7 +9,7 @@ OUT_COLS = 256
 
 class dataProcess(object):
 	def __init__(self, out_rows, out_cols, data_path="../deform/train/", label_path="../deform/label/",
-				 test_path="../test/", npy_path="../npydata/", img_type="png"):
+				 test_path="../test/", npy_path="../npydata/", img_type="png"): # ALL addresses you need to set
 		"""
 		A class used to process data.
 		"""
