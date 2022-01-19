@@ -24,6 +24,7 @@ _Folder results_ for storing predictions results.
 
 Process
 --
-### **0.** Before run this project, you should download our model file named _unet.hdf5_ in Supplementary files of our study, or generate your own model file by your own training set. The model file should be placed in the _Folder code_ and the images for segmentation should be placed in the _Folder test_.
+### **0.** Before run this project
+you should download our model file named _unet.hdf5_ in Supplementary files of our study, or generate your own model file by your own training set. The model file should be placed in the _Folder code_ and the images for segmentation should be placed in the _Folder test_.
 
 The images should be cropped into 256x256 pi. One epidermal micrograph of 1388x1040 pi, for example, a cuticle graph of _Ginkgo biloba_ in 100 magnification under optical microscope, is supposed to be cropped into 20 pieces of 256x256 pi images. The code 256_spliting_by_opencv.py in _Folder code_ were used in our case.
