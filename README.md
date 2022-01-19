@@ -24,12 +24,12 @@ _Folder results_ for storing predictions results.
 
 Process
 --
-### Before start this project
+### Before starting this project
 To guarantee all running environments are set in your computer and your hardware meets the requirement.<br />
 Download our model file named _unet.hdf5_ in Supplementary files of our study, or generate your own model file by your own training set. The model file should be placed in the _Folder code_.
 ### Image pre-processing
 The images should be cropped into 256x256 pi and transformed into 8-bit grayscale images.<br />
-One epidermal micrograph of 1388x1040 pi, for example, a cuticle graph of _Ginkgo biloba_ in 100 magnification under an optical microscope, is supposed to be cropped into 20 pieces of 256x256 pi images. The code named 256_spliting_by_opencv.py in _Folder code_ were used in our case.
+One epidermal micrograph of 1388x1040 pi, for example, a cuticle graph of _Ginkgo biloba_ in 100 magnification under an optical microscope, is supposed to be cropped into 20 pieces of 256x256 pi images. The code 256_spliting_by_opencv.py in _Folder code_ were used in our case.
 Note: The images for segmentation should be placed in the _Folder test_.
 ### Run the code
 in this order:
@@ -37,5 +37,5 @@ data.py <br />
 unet.py<br />
 see.py (in the _Folder code_)<br />
 see.m (in the _Folder results_).<br />
-You would see the results of prediction map shown in the _Folder results_.
+You would see the results of the prediction map shown in the _Folder results_.
 
