@@ -33,11 +33,12 @@ One epidermal micrograph of 1388x1040 pi, for example, a cuticle graph of _Ginkg
 Note: The images for segmentation should be placed in the _Folder test_.
 ### Run the code
 in this order: <br />
-256_spliting_by_opencv.py to crop the images.<br />
-elastic_deform.py to expand the training set (only in the first round) <br />
-data.py <br />
-unet.py<br />
-see.py (in the _Folder code_)<br />
-see.m (in the _Folder results_).<br />
+***256_spliting_by_opencv.py*** to crop the images.<br />
+***rename.py*** <br />
+***elastic_deform.py*** to expand the training set (only in the first round) <br />
+***data.py*** <br />
+***unet.py***<br />
+***see.py*** (in the _Folder code_)<br />
+***see.m*** (in the _Folder results_).<br />
 You would see the results of the prediction map shown in the _Folder results_.
 assessment.py. to generate the performance indicator of your model based on prediction results.<br />
