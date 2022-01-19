@@ -10,6 +10,7 @@ from PIL import Image
 
 def elastic_transform(image, alpha, sigma, alpha_affine, random_state=None):
     """
+    Reference:
     Elastic deformation of images as described in [Simard2003]_ (with modifications).
     .. [Simard2003] Simard, Steinkraus and Platt, "Best Practices for
          Convolutional Neural Networks applied to Visual Document Analysis", in
@@ -85,11 +86,11 @@ def augmentation(image, imageB, org_width=256, org_height=256, width=270, height
 for i in range(0, 30):
     # Load images
     print(i)
-    im = cv2.imread('../data/train/%d.png' % i, 0)  # 原始训练集的原始图像的位置
-    im_mask = cv2.imread('../data/label/%d_mask.png' % i, 0)  # 原始训练集的标记图像的位置
+    im = cv2.imread('../data/train/%d.png' % i, 0)  # Address of the Original training set 
+    im_mask = cv2.imread('../data/label/%d_mask.png' % i, 0)  # Address of Labels of the Original training set
     # 以下两行每次选一行注释掉
-    im = exposure.adjust_gamma(im, random.uniform(1.2, 1.8))  # 调暗
-    #im = exposure.adjust_gamma(im, random.uniform(0.6, 0.9))  # 调亮
+    im = exposure.adjust_gamma(im, random.uniform(1.2, 1.8))  # darkening
+    #im = exposure.adjust_gamma(im, random.uniform(0.6, 0.9))  # brightening
     a, b = augmentation(im, im_mask)
 	# Merge images into separete channels (shape will be (cols, rols, 2))
     im_merge = np.concatenate((im[..., None], im_mask[..., None]), axis=2)
