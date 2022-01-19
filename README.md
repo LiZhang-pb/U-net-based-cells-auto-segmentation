@@ -23,5 +23,6 @@ _Folder results_ for storing predictions results.
 
 Process
 --
-Download our model file named Unet.hdf5 in Supplementary files of our study or generate your own model file by your own training set. The model file should be placed in the _Folder code_.
-The images for segmentation should be placed in the _Folder test_
+Before run this project, you should download our model file named Unet.hdf5 in Supplementary files of our study or generate your own model file by your own training set. The model file should be placed in the _Folder code_. The images for segmentation should be placed in the _Folder test_.
+Process
+-
