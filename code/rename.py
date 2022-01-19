@@ -6,7 +6,7 @@ class BatchRename():
     '''批量重命名文件夹中的图片文件'''
 
     def __init__(self):
-        self.path = 'C:/Users/ZHANGLI/Desktop/auto segementation/R2-Unet-master/experiment/'
+        self.path = 'address of the Folder where images were placed'
 
     def rename(self):
         filelist = os.listdir(self.path)
