@@ -32,7 +32,7 @@ The images should be cropped into 256x256 pi and transformed into 8-bit grayscal
 One epidermal micrograph of 1388x1040 pi, for example, a cuticle graph of _Ginkgo biloba_ in 100 magnification under an optical microscope, is supposed to be cropped into 20 pieces of 256x256 pi images. The code 256_spliting_by_opencv.py in _Folder code_ were used in our case.
 Note: The images for segmentation should be placed in the _Folder test_.
 ### Run the code
-in this order:
+in this order: <br />
 data.py <br />
 unet.py<br />
 see.py (in the _Folder code_)<br />
