@@ -121,9 +121,9 @@ def Frequency_Weighted_Intersection_over_Union(confusionMatrix):
 
 #################################################################
 #  标签图像文件夹
-LabelPath = r"C:/Users/ZHANGLI/Desktop/auto segementation/R2-Unet-master/pingjiazhibiao/predict_2/"
+LabelPath = r"Label images address"
 #  预测图像文件夹
-PredictPath = r"C:/Users/ZHANGLI/Desktop/auto segementation/R2-Unet-master/pingjiazhibiao/label_2/"
+PredictPath = r"Prediction images address"
 #  类别数目(包括背景)
 classNum = 2
 #################################################################
