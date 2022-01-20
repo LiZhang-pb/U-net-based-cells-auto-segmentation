@@ -13,6 +13,10 @@ Main References: <br />
 [Long, J., et al. (2015)](https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Long_Fully_Convolutional_Networks_2015_CVPR_paper.pdf). Fully convolutional networks for semantic segmentation. Proceedings of the IEEE conference on computer vision and pattern recognition.	<br />
 [Ronneberger, O., et al. (2015).](https://paperswithcode.com/paper/u-net-convolutional-networks-for-biomedical) U-net: Convolutional networks for biomedical image segmentation. International Conference on Medical image computing and computer-assisted intervention, Springer.	<br />
 
+![Image text](https://github.com/LiZhang-pb/U-net-based-cells-auto-segmentation/blob/main/read_me_Pics/Fig.2_166.png)
+
+Figure. The U-net Architecture	<br />
+
 Requirements
 --
 Please see the file named [_Requirements_](https://github.com/LiZhang-pb/U-net-based-cells-auto-segmentation/blob/main/Requirements.txt) in the repository. It shows the running environments and hardware needed.
