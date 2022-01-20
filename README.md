@@ -3,7 +3,10 @@
 #IN UPDATING
 <br />
 <br />
-# U-net model for cells auto-segmentation
+<br />
+<br />
+
+### U-net model for cells auto-segmentation
 Python implementation of U-net.	<br />
 Original code:	<br />
 This segmentation code was used here for Epidermal Cells auto-segmentation from Cuticles micrographs of **_Ginkgo biloba_** and **fossil ginkgoaleans**, **followed** the open-source code of U-Net and FCN (**Long et al. 2015； Ronneberger et al. 2015**), and a lot of other works on Github [Community Codes](https://paperswithcode.com/paper/u-net-convolutional-networks-for-biomedical).	<br />
