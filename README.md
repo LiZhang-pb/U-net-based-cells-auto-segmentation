@@ -1,4 +1,4 @@
-	<br />	<br />#IN UPDATING	<br />	<br />
+<br />#IN UPDATING<br />
 # U-net model for cells auto-segmentation
 Python implementation of U-net.	<br />
 Original code:	<br />
