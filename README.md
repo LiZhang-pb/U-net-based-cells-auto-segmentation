@@ -39,11 +39,11 @@ Note: The images for segmentation should be placed in the _Folder test_.
 ### Run the code
 in this order: <br />
 [***256_spliting_by_opencv.py***](https://github.com/LiZhang-pb/U-net-based-cells-auto-segmentation/blob/main/code/256_spliting_by_opencv.py) to crop the images.<br />
-[***rename.py***](https://github.com/LiZhang-pb/U-net-based-cells-auto-segmentation/blob/main/code/rename.py) <br />
+[***rename.py***](https://github.com/LiZhang-pb/U-net-based-cells-auto-segmentation/blob/main/code/rename.py) to name the images, starting from 0, for model importing and training <br />
 [***elastic_deform.py***](https://github.com/LiZhang-pb/U-net-based-cells-auto-segmentation/blob/main/code/elastic_deform.py) to expand the training set (only in the first round) <br />
-[***data.py***](https://github.com/LiZhang-pb/U-net-based-cells-auto-segmentation/blob/main/code/data.py) <br />
-[***unet.py***](https://github.com/LiZhang-pb/U-net-based-cells-auto-segmentation/blob/main/code/unet.py)<br />
-[***see.py***](https://github.com/LiZhang-pb/U-net-based-cells-auto-segmentation/blob/main/code/see.py) (in the [_Folder code_](https://github.com/LiZhang-pb/U-net-based-cells-auto-segmentation/tree/main/code))<br />
-[***see.m***](https://github.com/LiZhang-pb/U-net-based-cells-auto-segmentation/blob/main/results/see2.m) (in the [_Folder results_](https://github.com/LiZhang-pb/U-net-based-cells-auto-segmentation/tree/main/results)).<br />
-You would see the results of the prediction map shown in the [_Folder results_](https://github.com/LiZhang-pb/U-net-based-cells-auto-segmentation/tree/main/results).
+[***data.py***](https://github.com/LiZhang-pb/U-net-based-cells-auto-segmentation/blob/main/code/data.py) to generate data file (.npy format) that the model can read <br />
+[***unet.py***](https://github.com/LiZhang-pb/U-net-based-cells-auto-segmentation/blob/main/code/unet.py) to train the model based on the training set and make the prediction of the cell boundaries based on the trained model <br />
+[***see.py***](https://github.com/LiZhang-pb/U-net-based-cells-auto-segmentation/blob/main/code/see.py) to read the prediction data files and generate png files accordingly (in the [_Folder code_](https://github.com/LiZhang-pb/U-net-based-cells-auto-segmentation/tree/main/code))<br />
+[***see.m***](https://github.com/LiZhang-pb/U-net-based-cells-auto-segmentation/blob/main/results/see2.m) to transform generated png files into the right format (in the [_Folder results_](https://github.com/LiZhang-pb/U-net-based-cells-auto-segmentation/tree/main/results)).<br />
+You would see the results of the prediction map shown in the [_Folder results_](https://github.com/LiZhang-pb/U-net-based-cells-auto-segmentation/tree/main/results), if the code runs smoothly.<br />
 [assessment.py.](https://github.com/LiZhang-pb/U-net-based-cells-auto-segmentation/blob/main/code/assessment.py) to generate the performance indicator of your model based on prediction results.<br />
