@@ -31,10 +31,10 @@ Process
 --
 ### Before starting this project
 To guarantee all running environments are set in your computer and your hardware meets the [_Requirements_](https://github.com/LiZhang-pb/U-net-based-cells-auto-segmentation/blob/main/Requirements.txt).<br />
-Download our model file named _unet.hdf5_ in Supplementary files of our study, or generate your own model file by your own training set. The model file should be placed in the _Folder code_.
+Download our model file named _unet.hdf5_ in Supplementary files of our study, or generate your own model file by your own training set. The model file should be placed in the [_Folder code_](https://github.com/LiZhang-pb/U-net-based-cells-auto-segmentation/tree/main/code).
 ### Image pre-processing
-The images should be cropped into 256x256 pi, transformed into 8-bit grayscale images, and renamed starting with 0.<br />
-One epidermal micrograph of 1388x1040 pi, for example, a cuticle graph of _Ginkgo biloba_ in 100 magnification under an optical microscope, is supposed to be cropped into 20 pieces(4 rows x 5 columns) of 256x256 pi images. The code of 256_spliting_by_opencv.py in _Folder code_ were used in our case, and you can use the code of rename.py to rename the image.
+The images should be cropped into 256x256 pi, transformed into 8-bit grayscale images, and renamed starting from 0.<br />
+One epidermal micrograph of 1388x1040 pi, for example, a cuticle graph of _Ginkgo biloba_ in 100 magnification under an optical microscope, is supposed to be cropped into 20 pieces(4 rows x 5 columns) of 256x256 pi images. The code of [***256_spliting_by_opencv.py***](https://github.com/LiZhang-pb/U-net-based-cells-auto-segmentation/blob/main/code/256_spliting_by_opencv.py) in[_Folder code_](https://github.com/LiZhang-pb/U-net-based-cells-auto-segmentation/tree/main/code) were used in our case, and you can use the code of [***rename.py***](https://github.com/LiZhang-pb/U-net-based-cells-auto-segmentation/blob/main/code/rename.py) to rename the image.
 Note: The images for segmentation should be placed in the _Folder test_.
 ### Run the code
 in this order: <br />
