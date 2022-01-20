@@ -9,7 +9,7 @@
 Python implementation of U-net.	<br />
 Original code:	<br />
 This segmentation code was used here for Epidermal Cells auto-segmentation from Cuticles micrographs of **_Ginkgo biloba_** and **fossil ginkgoaleans**, **followed** the open-source code of U-Net and FCN (**Long et al. 2015； Ronneberger et al. 2015**), and a lot of other works on Github [Community Codes](https://paperswithcode.com/paper/u-net-convolutional-networks-for-biomedical).	<br />
-Main References:
+Main References: <br />
 Long, J., et al. (2015). Fully convolutional networks for semantic segmentation. Proceedings of the IEEE conference on computer vision and pattern recognition.	<br />
 Ronneberger, O., et al. (2015). U-net: Convolutional networks for biomedical image segmentation. International Conference on Medical image computing and computer-assisted intervention, Springer.	<br />
 
