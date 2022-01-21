@@ -17,5 +17,5 @@ wheel  ==  0.29.0
 zipp  ==  3.5.0
 
 Hardware:
-CPU:11th Gen Intel(R) Core(TM) i7-11700KF @ 3.60Hz
-GPU:NVIDIA GeForce RTX 2060
+CPU:11th Gen Intel(R) Core(TM) i7-11700KF @ 3.60Hz 
+GPU:NVIDIA GeForce RTX 2060 or other NVIDIA GPUs with CUDA cores and Video Memory > 6 GB.
