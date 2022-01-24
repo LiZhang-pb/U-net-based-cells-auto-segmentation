@@ -5,7 +5,7 @@
 <br />
 <br />
 
-# U-net model for _Ginkgo biloba_ cells auto-segmentation
+# U-net model for _Ginkgo biloba_ epidermal cells auto-segmentation
 Python implementation of U-net.	<br />
 Original code:	<br />
 This segmentation code was used here for Epidermal Cells auto-segmentation from Cuticles micrographs of **_Ginkgo biloba_** and **fossil ginkgoaleans**, **followed** the open-source code of U-Net and FCN (**Long et al. 2015； Ronneberger et al. 2015**), and also works on Github [Community Codes](https://paperswithcode.com/paper/u-net-convolutional-networks-for-biomedical) and Chinese Software Developer Network [CSDN Projects](https://blog.csdn.net/ly_980311/article/details/105095888). <br />
